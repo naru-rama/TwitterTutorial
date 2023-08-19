@@ -15,9 +15,19 @@ class ConversationsController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        view.backgroundColor = .systemPurple
+        configureUI()
     }
     
     //MARK: Helpers
+    
+    func configureUI() {
+        view.backgroundColor = .white
+        //UINavigationBar.appearance().titleTextAttributes = [.foregroundColor: UIColor.black]
+        let titleLabel = UILabel()
+        titleLabel.text = "Message"
+        titleLabel.textColor = .black
+        titleLabel.font = .boldSystemFont(ofSize: 17)
+        navigationItem.titleView = titleLabel
+        //navigationItem.titleView = "Messages"
+    }
 }

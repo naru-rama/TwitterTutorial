@@ -15,9 +15,19 @@ class ExploreController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        view.backgroundColor = .blue
+        configureUI()
     }
     
     //MARK: Helpers
+    
+    func configureUI() {
+        view.backgroundColor = .white
+        //UINavigationBar.appearance().titleTextAttributes = [.foregroundColor: UIColor.black]
+        let titleLabel = UILabel()
+        titleLabel.text = "Explore"
+        titleLabel.textColor = .black
+        titleLabel.font = .boldSystemFont(ofSize: 17)
+        navigationItem.titleView = titleLabel
+        //navigationItem.titleView = "Messages"
+    }
 }
