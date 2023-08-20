@@ -11,6 +11,15 @@ class MainTabController: UITabBarController {
     
     // MARK: - Properites
     
+    let actionButton: UIButton = {
+        let button = UIButton(type: .system)
+        button.tintColor = .white
+        button.backgroundColor = .twitterBlue
+        button.setImage(UIImage(named: "new_tweet"), for: .normal)
+        button.addTarget(nil, action: #selector(actionButtonTapped), for: .touchUpInside)
+        return button
+    }()
+    
     //MARK: - Lifecycle
 
     override func viewDidLoad() {
@@ -21,9 +30,22 @@ class MainTabController: UITabBarController {
         UITabBar.appearance().standardAppearance = appearance
         UITabBar.appearance().scrollEdgeAppearance = appearance
         configureViewControllers()
+        configureUI()
+    }
+    
+    // MARK: - Selectors
+    
+    @objc func actionButtonTapped() {
+        print(123)
     }
     
     //MARK: Helpers
+    
+    func configureUI() {
+        view.addSubview(actionButton)
+        actionButton.anchor(bottom: view.safeAreaLayoutGuide.bottomAnchor, right: view.rightAnchor, paddingBottom: 64, paddingRight: 16, width: 56, height: 56)
+        actionButton.layer.cornerRadius = 56 / 2
+    }
     
     func configureViewControllers() {
         let feed = FeedController()

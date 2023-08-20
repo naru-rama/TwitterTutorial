@@ -17,6 +17,10 @@
 		0282DA262A892C8100C5BFC4 /* ExploreController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0282DA252A892C8100C5BFC4 /* ExploreController.swift */; };
 		0282DA282A892C9400C5BFC4 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0282DA272A892C9400C5BFC4 /* NotificationController.swift */; };
 		0282DA2A2A892CB000C5BFC4 /* ConversationsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0282DA292A892CB000C5BFC4 /* ConversationsController.swift */; };
+		0282DA2C2A911EA800C5BFC4 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0282DA2B2A911EA800C5BFC4 /* Extensions.swift */; };
+		0282DA2F2A912B2D00C5BFC4 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0282DA2E2A912B2D00C5BFC4 /* LoginController.swift */; };
+		0282DA312A912BD600C5BFC4 /* RegistrationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0282DA302A912BD600C5BFC4 /* RegistrationController.swift */; };
+		0282DA332A91F64E00C5BFC4 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0282DA322A91F64E00C5BFC4 /* Utilities.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +36,10 @@
 		0282DA252A892C8100C5BFC4 /* ExploreController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreController.swift; sourceTree = "<group>"; };
 		0282DA272A892C9400C5BFC4 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
 		0282DA292A892CB000C5BFC4 /* ConversationsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationsController.swift; sourceTree = "<group>"; };
+		0282DA2B2A911EA800C5BFC4 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		0282DA2E2A912B2D00C5BFC4 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		0282DA302A912BD600C5BFC4 /* RegistrationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationController.swift; sourceTree = "<group>"; };
+		0282DA322A91F64E00C5BFC4 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +91,8 @@
 		0282DA1B2A881BDB00C5BFC4 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				0282DA2B2A911EA800C5BFC4 /* Extensions.swift */,
+				0282DA322A91F64E00C5BFC4 /* Utilities.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -97,6 +107,7 @@
 		0282DA1D2A881C0A00C5BFC4 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				0282DA2D2A912B1000C5BFC4 /* Authentication */,
 				0282DA212A8820CA00C5BFC4 /* MainTabController.swift */,
 				0282DA232A892C2600C5BFC4 /* FeedController.swift */,
 				0282DA252A892C8100C5BFC4 /* ExploreController.swift */,
@@ -125,6 +136,15 @@
 			children = (
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		0282DA2D2A912B1000C5BFC4 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				0282DA2E2A912B2D00C5BFC4 /* LoginController.swift */,
+				0282DA302A912BD600C5BFC4 /* RegistrationController.swift */,
+			);
+			path = Authentication;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,10 +220,14 @@
 			files = (
 				0282DA282A892C9400C5BFC4 /* NotificationController.swift in Sources */,
 				0282DA2A2A892CB000C5BFC4 /* ConversationsController.swift in Sources */,
+				0282DA332A91F64E00C5BFC4 /* Utilities.swift in Sources */,
 				0282DA082A88182D00C5BFC4 /* AppDelegate.swift in Sources */,
+				0282DA2C2A911EA800C5BFC4 /* Extensions.swift in Sources */,
 				0282DA262A892C8100C5BFC4 /* ExploreController.swift in Sources */,
 				0282DA0A2A88182D00C5BFC4 /* SceneDelegate.swift in Sources */,
 				0282DA222A8820CA00C5BFC4 /* MainTabController.swift in Sources */,
+				0282DA2F2A912B2D00C5BFC4 /* LoginController.swift in Sources */,
+				0282DA312A912BD600C5BFC4 /* RegistrationController.swift in Sources */,
 				0282DA242A892C2600C5BFC4 /* FeedController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
