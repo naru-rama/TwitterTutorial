@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		027C86482AADA38C00FF0B1C /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027C86472AADA38C00FF0B1C /* UserService.swift */; };
 		0282DA082A88182D00C5BFC4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0282DA072A88182D00C5BFC4 /* AppDelegate.swift */; };
 		0282DA0A2A88182D00C5BFC4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0282DA092A88182D00C5BFC4 /* SceneDelegate.swift */; };
 		0282DA0F2A88182D00C5BFC4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0282DA0D2A88182D00C5BFC4 /* Main.storyboard */; };
@@ -28,6 +29,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		027C86472AADA38C00FF0B1C /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
 		0282DA042A88182D00C5BFC4 /* TwitterTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwitterTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0282DA072A88182D00C5BFC4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0282DA092A88182D00C5BFC4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -116,6 +118,7 @@
 			isa = PBXGroup;
 			children = (
 				02A35C772AA69F83006E8BB4 /* AuthService.swift */,
+				027C86472AADA38C00FF0B1C /* UserService.swift */,
 			);
 			path = API;
 			sourceTree = "<group>";
@@ -296,6 +299,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				027C86482AADA38C00FF0B1C /* UserService.swift in Sources */,
 				0282DA282A892C9400C5BFC4 /* NotificationController.swift in Sources */,
 				0282DA2A2A892CB000C5BFC4 /* ConversationsController.swift in Sources */,
 				0282DA332A91F64E00C5BFC4 /* Utilities.swift in Sources */,
