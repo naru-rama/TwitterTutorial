@@ -61,7 +61,7 @@ class MainTabController: UITabBarController {
     // MARK: - Selectors
     
     @objc func actionButtonTapped() {
-        print(123)
+        logUserOut()
     }
     
     //MARK: Helpers
