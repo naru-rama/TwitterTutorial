@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		027C86482AADA38C00FF0B1C /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027C86472AADA38C00FF0B1C /* UserService.swift */; };
 		027C864A2AADAC6B00FF0B1C /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027C86492AADAC6B00FF0B1C /* User.swift */; };
+		027C864C2AADD39400FF0B1C /* UploadTweetController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027C864B2AADD39400FF0B1C /* UploadTweetController.swift */; };
 		0282DA082A88182D00C5BFC4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0282DA072A88182D00C5BFC4 /* AppDelegate.swift */; };
 		0282DA0A2A88182D00C5BFC4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0282DA092A88182D00C5BFC4 /* SceneDelegate.swift */; };
 		0282DA0F2A88182D00C5BFC4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0282DA0D2A88182D00C5BFC4 /* Main.storyboard */; };
@@ -32,6 +33,7 @@
 /* Begin PBXFileReference section */
 		027C86472AADA38C00FF0B1C /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
 		027C86492AADAC6B00FF0B1C /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		027C864B2AADD39400FF0B1C /* UploadTweetController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadTweetController.swift; sourceTree = "<group>"; };
 		0282DA042A88182D00C5BFC4 /* TwitterTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwitterTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0282DA072A88182D00C5BFC4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0282DA092A88182D00C5BFC4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -134,6 +136,7 @@
 				0282DA252A892C8100C5BFC4 /* ExploreController.swift */,
 				0282DA272A892C9400C5BFC4 /* NotificationController.swift */,
 				0282DA292A892CB000C5BFC4 /* ConversationsController.swift */,
+				027C864B2AADD39400FF0B1C /* UploadTweetController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -310,6 +313,7 @@
 				0282DA2C2A911EA800C5BFC4 /* Extensions.swift in Sources */,
 				0282DA262A892C8100C5BFC4 /* ExploreController.swift in Sources */,
 				02A35C782AA69F83006E8BB4 /* AuthService.swift in Sources */,
+				027C864C2AADD39400FF0B1C /* UploadTweetController.swift in Sources */,
 				027C864A2AADAC6B00FF0B1C /* User.swift in Sources */,
 				0282DA0A2A88182D00C5BFC4 /* SceneDelegate.swift in Sources */,
 				0282DA222A8820CA00C5BFC4 /* MainTabController.swift in Sources */,
